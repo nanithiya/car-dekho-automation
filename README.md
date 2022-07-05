@@ -15,7 +15,6 @@ Maven
 
 Selenium
 TestNG
-RestAssured
 
 ### Steps to clone execute the tests
 ```
