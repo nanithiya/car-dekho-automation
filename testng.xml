@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default suite" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test" verbose="2">
+    <classes>
+      <class name="com.web.pages.PageBase"/>
+      <class name="com.dataprovides.UsedCarSortDataProvider"/>
+      <class name="com.tests.web.CarDekhoPageTest"/>
+      <class name="com.web.pages.CarDekhoPage"/>
+      <class name="com.tests.web.BaseWebTest"/>
+      <class name="com.validators.Validator"/>
+      <class name="com.dataprovides.UsedCarCityDataProvider"/>
+      <class name="com.dataprovides.UsedCarBudgetDataProvider"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

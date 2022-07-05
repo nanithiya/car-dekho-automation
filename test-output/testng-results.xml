@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-05T17:19:16 IST" name="Default suite" finished-at="2022-07-05T17:19:26 IST" duration-ms="10126">
+    <groups>
+    </groups>
+    <test started-at="2022-07-05T17:19:16 IST" name="Default test" finished-at="2022-07-05T17:19:26 IST" duration-ms="10126">
+      <class name="com.tests.web.CarDekhoPageTest">
+        <test-method signature="OpenCarDekhoUrlTest()[pri:1, instance:com.tests.web.CarDekhoPageTest@7ac9af2a]" started-at="2022-07-05T17:19:16 IST" name="OpenCarDekhoUrlTest" description="Open CarDekho URL" finished-at="2022-07-05T17:19:17 IST" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenCarDekhoUrlTest -->
+        <test-method signature="SelectBudgetRangeTest(java.lang.String)[pri:2, instance:com.tests.web.CarDekhoPageTest@7ac9af2a]" started-at="2022-07-05T17:19:17 IST" name="SelectBudgetRangeTest" description="Select Budget range" data-provider="BudgetOptionDP" finished-at="2022-07-05T17:19:19 IST" duration-ms="1713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2 - 5 Lakh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBudgetRangeTest -->
+        <test-method signature="SelectCityTest(java.lang.String)[pri:3, instance:com.tests.web.CarDekhoPageTest@7ac9af2a]" started-at="2022-07-05T17:19:19 IST" name="SelectCityTest" description="Select City range" data-provider="CityDP" finished-at="2022-07-05T17:19:19 IST" duration-ms="467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCityTest -->
+        <test-method signature="NavigateToUsedCarPageTest(java.lang.String)[pri:4, instance:com.tests.web.CarDekhoPageTest@7ac9af2a]" started-at="2022-07-05T17:19:19 IST" name="NavigateToUsedCarPageTest" description="Navigate to used cars page" data-provider="CityDP" finished-at="2022-07-05T17:19:21 IST" duration-ms="1384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToUsedCarPageTest -->
+        <test-method signature="SortByPriceTest(java.lang.String)[pri:5, instance:com.tests.web.CarDekhoPageTest@7ac9af2a]" started-at="2022-07-05T17:19:21 IST" name="SortByPriceTest" description="Sort by price (High to Low)" data-provider="SortDP" finished-at="2022-07-05T17:19:22 IST" duration-ms="935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Price - High to Low]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortByPriceTest -->
+        <test-method signature="SelectCarTest()[pri:6, instance:com.tests.web.CarDekhoPageTest@7ac9af2a]" started-at="2022-07-05T17:19:22 IST" name="SelectCarTest" description="Select car" finished-at="2022-07-05T17:19:23 IST" duration-ms="1759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCarTest -->
+        <test-method signature="SelectReportTest()[pri:7, instance:com.tests.web.CarDekhoPageTest@7ac9af2a]" started-at="2022-07-05T17:19:23 IST" name="SelectReportTest" description="Select Report" finished-at="2022-07-05T17:19:25 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectReportTest -->
+        <test-method signature="clickCarImageTest()[pri:8, instance:com.tests.web.CarDekhoPageTest@7ac9af2a]" started-at="2022-07-05T17:19:25 IST" name="clickCarImageTest" description="Show the Car Image" finished-at="2022-07-05T17:19:25 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCarImageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.web.CarDekhoPageTest@7ac9af2a]" started-at="2022-07-05T17:19:25 IST" name="tearDown" finished-at="2022-07-05T17:19:26 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.web.CarDekhoPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
